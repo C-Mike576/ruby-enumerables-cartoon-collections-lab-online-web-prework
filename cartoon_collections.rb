@@ -12,12 +12,8 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.map{ |x| 
-  if x.length > 4 
-    return true
-  else
-    return false
-  end}
+  calls.each do |x|
+    return false unless x.length > 4
 end
 
 def find_the_cheese# code an argument here
