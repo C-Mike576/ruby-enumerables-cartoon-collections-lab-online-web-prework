@@ -1,5 +1,6 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
+  p names
   names.collect {|x| p x}
 end
 
