@@ -10,8 +10,14 @@ def summon_captain_planet(names)# code an argument here
   p new_array
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(calls)# code an argument here
   # Your code here
+  calls.map{ |x| 
+  if x.length > 4 
+    return true
+  else
+    return false
+  end}
 end
 
 def find_the_cheese# code an argument here
