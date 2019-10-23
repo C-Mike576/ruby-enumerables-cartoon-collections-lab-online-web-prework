@@ -26,6 +26,6 @@ def find_the_cheese(input)# code an argument here
     if cheese_types.include?(look)
       return "#{look}"
     end
-    return nil
   end
+  return nil
 end
