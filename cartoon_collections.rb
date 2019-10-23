@@ -2,8 +2,7 @@ require 'pry'
 
 def roll_call_dwarves(names)# code an argument here
   # Your code here
-  binding.pry
-  #names.collect {|x| p x}
+  names.collect {|x| puts x}
 end
 
 def summon_captain_planet# code an argument here
