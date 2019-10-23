@@ -1,12 +1,12 @@
-require 'pry'
-
 def roll_call_dwarves(names)# code an argument here
   # Your code here
-  names.collect {|x| p "#{names.index(x)+1}." + x}
+  names.collect {|x| puts "#{names.index(x)+1}." + x}
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(names)# code an argument here
   # Your code here
+  names.map{ |x| names[x].
+  
 end
 
 def long_planeteer_calls# code an argument here
