@@ -24,7 +24,7 @@ def find_the_cheese(input)# code an argument here
   input.each do |look|
     binding.pry
     if cheese_types.include?(look)
-      return input[look]
+      return "#{look}"
     else
       return nil
     end
