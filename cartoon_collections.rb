@@ -2,7 +2,7 @@ require 'pry'
 
 def roll_call_dwarves(names)# code an argument here
   # Your code here
-  names.collect {|x| puts x.index + "." + x}
+  names.collect {|x| puts "#{x.index}." + x}
 end
 
 def summon_captain_planet# code an argument here
