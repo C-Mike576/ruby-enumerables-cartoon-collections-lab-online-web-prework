@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(names)# code an argument here
   # Your code here
-  names.map{ |x| names[x].
+  names.map{ |x| names[x].capit
   
 end
 
