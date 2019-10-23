@@ -12,13 +12,12 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.each do |x|
+  calls.map{ |x|
     if x.size <= 4
-      binding.pry
       return false
     else
       return true
-    end
+    end}
   end
 end
 
