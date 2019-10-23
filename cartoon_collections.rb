@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(names)# code an argument here
   # Your code here
   names.collect {|x| puts "#{names.index(x)+1}." + x}
