@@ -20,7 +20,7 @@ def find_the_cheese(input)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   input.each do |look|
-    if cheese_types.include?(look)
+    if look.include?(cheese_types)
       p look
     else
       return nil
