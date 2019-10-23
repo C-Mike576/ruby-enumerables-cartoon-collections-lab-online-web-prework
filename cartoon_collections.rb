@@ -5,8 +5,8 @@ end
 
 def summon_captain_planet(names)# code an argument here
   # Your code here
-  names.map{ |x| puts "#{x.capitalize}" +"!"}
-  p names
+  new_array = names.map{ |x| puts "#{x.capitalize}" +"!"}
+  p new_array
 end
 
 def long_planeteer_calls# code an argument here
